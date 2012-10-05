@@ -11,7 +11,7 @@ rightscale_marker :begin
 
 #node[:app][:packages] = "nagios.x86_64"
 
-yum_package "nagios.x86_64" do
+yum_package "nagios" do
   #version "1.16.1-1"
   action :install
   arch "x86_64"
