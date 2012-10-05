@@ -1,32 +1,33 @@
 {
-  "conflicting": {
-  },
-  "groupings": {
-  },
-  "attributes": {
+  "suggestions": {
   },
   "platforms": {
   },
   "description": "Installs/Configures nagios",
-  "dependencies": {
-    "rightscale": ">= 0.0.0",
-    "app": ">= 0.0.0"
+  "version": "0.0.1",
+  "conflicting": {
   },
-  "maintainer_email": "YOUR_EMAIL",
+  "recipes": {
+    "nagios::default": "Installs standalone nagios from standard repository"
+  },
+  "attributes": {
+  },
+  "license": "All rights reserved",
+  "dependencies": {
+    "rightscale_cookbooks": ">= 0.0.0",
+    "app": ">= 0.0.0",
+    "rightscale": ">= 0.0.0"
+  },
+  "maintainer": "YOUR_COMPANY_NAME",
   "replacing": {
+  },
+  "name": "nagios",
+  "groupings": {
   },
   "providing": {
   },
   "recommendations": {
   },
-  "license": "All rights reserved",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
-  "name": "nagios",
-  "version": "0.0.1",
-  "recipes": {
-    "nagios::default": "Installs standalone nagios from standard repository"
-  },
-  "suggestions": {
-  },
-  "maintainer": "YOUR_COMPANY_NAME"
+  "maintainer_email": "YOUR_EMAIL",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n"
 }
