@@ -14,6 +14,7 @@ rightscale_marker :begin
 package "nagios.x86_64" do
   #version "1.16.1-1"
   action :install
+  arch "x86_64"
 end
 
 rightscale_marker :end
