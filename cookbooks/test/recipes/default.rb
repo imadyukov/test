@@ -6,4 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-log "Privet!"
+
+rightscale_marker :begin
+	log "Privet!"
+rightscale_marker :end
