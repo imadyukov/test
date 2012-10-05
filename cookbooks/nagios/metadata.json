@@ -1,0 +1,32 @@
+{
+  "conflicting": {
+  },
+  "groupings": {
+  },
+  "attributes": {
+  },
+  "platforms": {
+  },
+  "description": "Installs/Configures nagios",
+  "dependencies": {
+    "rightscale": ">= 0.0.0",
+    "app": ">= 0.0.0"
+  },
+  "maintainer_email": "YOUR_EMAIL",
+  "replacing": {
+  },
+  "providing": {
+  },
+  "recommendations": {
+  },
+  "license": "All rights reserved",
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "name": "nagios",
+  "version": "0.0.1",
+  "recipes": {
+    "nagios::default": "Installs standalone nagios from standard repository"
+  },
+  "suggestions": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME"
+}
