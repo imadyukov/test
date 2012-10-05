@@ -9,6 +9,11 @@
 
 rightscale_marker :begin
 
-node[:app][:packages] = "nagios.x86_64"
+#node[:app][:packages] = "nagios.x86_64"
+
+package "nagios.x86_64" do
+  #version "1.16.1-1"
+  action :install
+end
 
 rightscale_marker :end

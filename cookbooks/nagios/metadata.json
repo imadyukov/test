@@ -1,33 +1,32 @@
 {
+  "dependencies": {
+    "rightscale": ">= 0.0.0",
+    "app": ">= 0.0.0"
+  },
+  "description": "Installs/Configures nagios",
+  "attributes": {
+  },
   "suggestions": {
+  },
+  "recommendations": {
   },
   "platforms": {
   },
-  "description": "Installs/Configures nagios",
   "version": "0.0.1",
   "conflicting": {
+  },
+  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n",
+  "groupings": {
   },
   "recipes": {
     "nagios::default": "Installs standalone nagios from standard repository"
   },
-  "attributes": {
-  },
   "license": "All rights reserved",
-  "dependencies": {
-    "rightscale_cookbooks": ">= 0.0.0",
-    "app": ">= 0.0.0",
-    "rightscale": ">= 0.0.0"
-  },
-  "maintainer": "YOUR_COMPANY_NAME",
-  "replacing": {
-  },
-  "name": "nagios",
-  "groupings": {
-  },
   "providing": {
   },
-  "recommendations": {
-  },
+  "name": "nagios",
   "maintainer_email": "YOUR_EMAIL",
-  "long_description": "Description\n===========\n\nRequirements\n============\n\nAttributes\n==========\n\nUsage\n=====\n\n"
+  "replacing": {
+  },
+  "maintainer": "YOUR_COMPANY_NAME"
 }

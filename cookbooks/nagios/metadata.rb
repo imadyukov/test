@@ -7,6 +7,5 @@ version          "0.0.1"
 
 depends "rightscale"
 depends "app"
-depends "rightscale_cookbooks"
 
 recipe "nagios::default","Installs standalone nagios from standard repository"
